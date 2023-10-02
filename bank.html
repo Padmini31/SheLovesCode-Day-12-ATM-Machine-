@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link href="styleBank.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>ATM Machine</h2><br/>
+    <nav>
+    <a href="welcome.html">Home</a>
+    <a href="bank.html">Banking</a>
+    </nav>
+    <div id="mdiv">
+        <div id="ba" onclick="bal()">Balance & Query</div>
+        <div id="wid" onclick="widr()">Withdraw</div>
+        <div id="chng" onclick="chnpin()">Change Pin</div>
+        <div id="mini" onclick="stat()">Mini Statement</div>
+        <div id="savcur">Savings and Current Acc.</div>
+        <div id="prec">Print receipt</div>
+        <div id="ent">Enter Pin Number</div>
+    </div>
+    <div id="display">
+
+    </div>
+    <div id="chnpn">
+        <h2 id="ren">Enter Your new PIN</h2>
+        <input type="password" id="pnnew" maxlength="6">
+
+        <h2 id="r">Re-Enter Your new PIN</h2>
+        <input type="password" id="pnnewc" maxlength="6"><br/>
+        <button id="pnc" onclick="re()">Press Enter</button>
+        <br/>
+        <p id="inf" onclick="empt()"></p>
+
+        </p>
+       
+    </div>
+<div id="st">
+
+</div>
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+body {
+    background-image: linear-gradient(to right, #362FD9, #FDE5D4);
+
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+}
+
+#b {
+    height: 40px;
+    width: 16%;
+    background-color: bisque;
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin: auto;
+
+}
+
+#pn {
+    background-color: #1AACAC;
+    padding: 10px;
+    font-size: large;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#sav {
+    margin: auto;
+    background-color:coral;
+    height: auto;
+    padding:12px;
+    width: auto;
+    text-align: center;
+    border-radius: 20px;
+    display: none;
+    font-size: large;
+    font-weight: bolder;
+
+}
+
+#ban{
+    margin: auto;
+    background-color:yellow;
+    height: auto;
+    padding:12px;
+    width: auto;
+    text-align: center;
+    border-radius: 20px;
+    display: none;
+    font-size: large;
+    font-weight: bolder;
+
+}
+#hombody{
+    background-image: url("atm.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0px;
+    
+}
+#hombody h2{
+    margin: 0px;  
+    font-size: 50px;
+}
+#hombody a{
+    background-color:#362FD9;
+    padding: 2%;
+    color: white;
+    height:auto;
+    text-decoration: none;
+    width:auto;
+    font-size: x-large;
+    border:1px solid beige;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}

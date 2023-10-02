@@ -1,0 +1,144 @@
+*{
+    margin:0px;
+}
+h2 {
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+    width:100%;
+    margin: 0px;
+    height: auto;
+}
+
+body {
+    background-image: linear-gradient(to right, #362FD9, #FDE5D4);
+    padding:0px 2px;
+    margin: 0px;
+    
+}
+
+
+
+#mdiv {
+    display: flex;
+    border: 0px solid black;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#mdiv div {
+    height: 60px;
+    width: 38%;
+    background-color: aquamarine;
+    margin: 2%;
+    border: 2px solid black;
+    border-radius: 18px;
+    font-size: larger;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:2px;
+
+}
+#display{
+    height:100px;
+    width:100px;
+    background-color: pink;
+    display: none;
+    padding: 1%;
+
+    margin:1%;
+}
+a{
+    background-color:darkkhaki;
+    padding: 10px;
+    font-weight:900;
+    font-size: larger;
+    margin:3%;
+    
+ 
+}
+input{
+    padding: 1%;
+}
+#bnk{
+    
+    border: 0px solid black;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 3%;
+    height: auto;
+}
+#yn{
+    border: 0px solid black;
+  
+    width:30%;
+    margin: auto;
+    height: auto;
+
+}
+#yn div{
+    border-radius: 10px;
+    background-color: aqua;
+    margin: 2%;
+    padding: 3%;
+
+}
+p{
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+}
+#not{
+    /* margin:3%; */
+    border: 1px solid yellow;
+    display: none;
+}
+#chnpn{
+    display: none;
+    margin-top: 1%;
+    text-align: center;
+    height:auto;
+
+    border:0px solid black;
+}
+#chnpn h2{
+    margin: 0px;
+    padding: 10px;
+    background-color: blue;
+    color:aliceblue;
+    width:40%;
+    border-radius: 9px;
+    border:2px solid wheat;
+   margin: auto;
+}
+#chnpn input{
+    margin: 10px;
+    padding: 10px;
+    border:2px solid navy;
+}
+
+
+#chnpn button{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid blue;
+}
+#st{
+    text-align: center;
+}
+nav{
+
+    border:0px solid black;
+    height: auto;
+    margin-left: 3px;
+}
+a{
+    margin:3px;
+    border-radius: 16px;
+}
+#inf{
+    color:blue;
+    font-size: larger;
+}
