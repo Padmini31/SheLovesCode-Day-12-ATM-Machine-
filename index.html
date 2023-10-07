@@ -1,22 +1,209 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+    <title>Hello, World!</title>
+   
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      
+      
+//Using conditional statements and Take user input and display data in UI
+//given number is multiple of 3 or not e.g.10900
+<br>
+<labelEnter number
+<input id="num" type="number">
+<button onclick="mul()">enter</button>
+<p id="d"></p>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
-    <title>Document</title>
-</head>
+//check particular sub-word exist in a string or not e.g.
+//I am learning js: 'js' exists or not
+<br>
+Enter string
+<input id="n" type="text"><br>
+Enter word to search
+<input id="t" type="text">
+<button onclick="sbs()">enter</button>
+<p id="a"></p>
 
-<body>
-    <h1>ATM Machine</h1>
-    <h2>Please Enter Your PIN</h2>
-    <input type="password" id="b" maxlength="6"><br/><br/>
-    <button id="pn" onclick="gen()">Pin Generation</button>
+
+
+//calculate complex interest ((p/r )* t) / 100 )
+
+<br>
+Enter principal
+<input id="p" type="Number"><br>
+Enter rate
+<input id="r" type="Number"><br>
+Enter time
+<input id="tm" type="Number"><br>
+
+<button onclick="calci()">enter</button>
+<p id="ci"></p>
+
+
+
+//given year leap year or not (29 in feb)
+
+<br>
+Enter year
+<input id="y" type="Number"><br>
+
+<button onclick="ly()">enter</button>
+<p id="l"></p>
+
+
+
+//0-6 display day week depending upon what user is entering (0-> sunday) : using switch
     <br/>
-    <p id="sav"></p>
-    <p id="ban">Press Banking</p>
-<script src="script.js"></script>
-</body>
+Enter number
+<input id="v" type="Number"><br>
 
+<button onclick="y()">enter</button>
+<p id="day"></p>
+
+//use loops, conditional statements, take input from user
+
+//multiplication table (ask number from user)
+<br>
+Enter number
+<input id="m" type="Number"><br>
+
+<button onclick="tab()">enter</button>
+<p id="tbl"></p>
+
+
+
+//sum of digits: e.g. (123: 1 + 2 + 3 = 6) or (1234 : 1 + 2 + 3 + 4 = 10) : hint - loops, divisor and modulus
+
+<br/>
+Enter number:
+<input id="sum" type="Number"><br>
+
+<button onclick="sod()">enter</button>
+<p id="shw"></p>
+
+//palindrome string (aca: aca(reverse) is a palindrome, abc: cba is not a palindrome): use loops
+
+<br>
+Enter String:
+<input id="pl" type="text"><br>
+
+<button onclick="pal()">enter</button>
+<p id="pln"></p>
+
+//display even numbers upto n number (ask user for number)
+<br>
+Enter number:
+<input id="ev" type="number"><br>
+
+<button onclick="evn()">enter</button>
+<p id="e"></p>
+
+
+//ask user for the input, whether char is vowel or consonant
+<br/>
+Enter char:
+<input id="ch" type="text"><br>
+
+<button onclick="chr()">enter</button>
+<p id="c"></p>
+
+//count of even and odd number from 1 to 999
+
+<p id="ei"></p>
+
+//count occurrence of a particular character in a string (hello: count of l is 2): loops
+<br/>
+<label>Enter a word</label>
+<input id="w" type="text"><br>
+Enter char:
+<input id="chr" type="text"><br>
+
+<button onclick="cntc()">enter</button>
+<p id="cn"></p>
+
+//sum and average of array elements [1, 9, 8]
+
+<br/>
+
+ <p id="araSum"></p>
+ <p id="aavg"></p>
+
+//largest number in an array (do with loops)
+<br/>
+<label>Enter array elements</label>
+<input id="la" type="number"><br>
+
+<button onclick="largel()">enter</button>
+ <p id="lag"></p>
+
+
+//From 1 to 100, print "foo" if multiple of 3, "bar" if multiple of 5, if multiple of both display "hello" or
+else print the number
+e.g.
+1
+2
+foo
+4
+bar
+foo
+
+
+ <p id="valu"></p>
+
+
+//add only even numbers in an array (array elements to be input by user)
+
+<br/>
+<label>Enter array elements</label>
+<input id="sevn" type="number"><br>
+
+<button onclick="adevn()">enter</button>
+ <p id="ae"></p>
+
+//found an element in array [10, 78, 90] return 90 otherwise exit from an array// take user input
+
+<br/>
+<div>
+<p id="xyz"></p>
+<hr>
+<br>
+Enter elements in the Arra
+<input id="inp" type="number">
+
+<button onclick="find()">Enter Element</button>
+<p id="emp"></p>
+<p>The Array is:[ ]</p>
+<p id="show"></p>
+Entr no. to search
+<input id="ser" type="Number">
+
+<button id="rs" onclick="res()">chek presence</button>
+<p id="shwres"></p>
+
+//smallest number in an Array
+
+<button onclick="finsma()">Find Smallest no. </button>
+<p id="smal"></p>
+</div>
+
+//biggest of even number in an array ([10, 12, 90, 93, 707]): biggest even number is 90
+<hr>
+<br>
+<p id="bg"></p>
+
+
+//add two array [10,20,30] + [1,2,3]: [11, 22, 33]
+
+
+<p id="adar"></p>
+
+
+//reverse an array(with loops) [10, 78, 0]: [0, 78, 10]
+    
+<p id="rv"></p>
+
+<script src="script.js"></script>
+  </body>
 </html>
