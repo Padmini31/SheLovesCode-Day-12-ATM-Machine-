@@ -133,12 +133,20 @@ nav{
     border:0px solid black;
     height: auto;
     margin-left: 3px;
+    padding:1%;
+    margin:1px 2px 7px 4px;
+    
 }
 a{
     margin:3px;
     border-radius: 16px;
+    height:auto;
 }
 #inf{
     color:blue;
     font-size: larger;
 }
+#num{
+    background-color: orange;
+    padding: 3%;
+    }
